@@ -720,6 +720,13 @@ select {
   --tw-contain-style:  ;
 }
 
-.font-bold {
-  font-weight: 700;
+.button-1 {
+  font: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+  border-radius: 8px;
 }

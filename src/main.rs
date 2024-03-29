@@ -74,7 +74,7 @@ fn app() -> Html {
             //{ for details }
             <Calculator operation={CalcOperation::ADD} memory={*calc_memory} temp={None} />
             <div>
-                <button class="font-bold py-2 px-4 rounded bg-purple-500" onclick={calcmemory_onclick}>{ "+1" }</button>
+                <button class="button-1" onclick={calcmemory_onclick}>{ "+1" }</button>
             <p>
                 <b>{format!("Current value: {}", *calc_memory)}</b>
             </p>
