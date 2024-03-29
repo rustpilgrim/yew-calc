@@ -1,4 +1,0 @@
-[[hooks]]
-stage = "pre_build"
-command = "./tailwindcss.exe"
-command_arguments = ["-i", "input.css", "-o", "output.css", "--watch"]

@@ -719,3 +719,7 @@ select {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.font-bold {
+  font-weight: 700;
+}

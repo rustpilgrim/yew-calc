@@ -67,7 +67,6 @@ fn app() -> Html {
 */
     html! {
         <>
-            <h1>{ "RustConf Explorer" }</h1>
             //<div>
             //    <h3>{"Videos to watch"}</h3>
             //    <VideosList videos={(*videos).clone()} on_click={on_video_select.clone()} />
@@ -75,7 +74,7 @@ fn app() -> Html {
             //{ for details }
             <Calculator operation={CalcOperation::ADD} memory={*calc_memory} temp={None} />
             <div>
-                <button onclick={calcmemory_onclick}>{ "+1" }</button>
+                <button class="font-bold py-2 px-4 rounded bg-purple-500" onclick={calcmemory_onclick}>{ "+1" }</button>
             <p>
                 <b>{format!("Current value: {}", *calc_memory)}</b>
             </p>
